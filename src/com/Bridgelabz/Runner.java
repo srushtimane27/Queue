@@ -9,6 +9,10 @@ public class Runner {
         q.enQueue(30);
         q.enQueue(70);
 
+        q.deQueue();
+        q.deQueue();
+        q.deQueue();
+
         q.show();
     }
 }
